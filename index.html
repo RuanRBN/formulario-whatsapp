@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário WhatsApp - GitHub Pages</title>
+    <title>Formulário WhatsApp</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="form-container">
             <h1>📱 Formulário para WhatsApp</h1>
-            <p class="subtitle">Powered by GitHub Pages</p>
+            <p class="subtitle">Envio direto e seguro</p>
             
             <div id="status" class="status hidden"></div>
             
@@ -44,21 +44,12 @@
 
                 <div class="form-group">
                     <label for="mensagem">Mensagem *</label>
-                    <textarea id="mensagem" name="mensagem" rows="5" required 
-                              placeholder="Descreva sua necessidade..."></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="arquivo">Anexar Arquivo (opcional)</label>
-                    <input type="file" id="arquivo" name="arquivo" 
-                           accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.txt">
-                    <small>Máximo 5MB - JPG, PNG, PDF, DOC, TXT</small>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
                 </div>
 
                 <div class="form-group checkbox-group">
                     <label class="checkbox-label">
                         <input type="checkbox" id="aceito" required>
-                        <span class="checkmark"></span>
                         Aceito receber contato via WhatsApp *
                     </label>
                 </div>
@@ -68,14 +59,10 @@
                     <span id="loading" class="loading hidden">⏳ Enviando...</span>
                 </button>
             </form>
-
-            <div class="info-footer">
-                <p>🔒 Seus dados são seguros e não são armazenados</p>
-                <p>📱 Mensagem será enviada diretamente para nosso WhatsApp</p>
-            </div>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
