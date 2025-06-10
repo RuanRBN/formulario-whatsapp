@@ -9,7 +9,7 @@ class FormularioWhatsApp {
         // Configurações
         this.config = {
             whatsappAPI: 'https://api.whatsapp.com/send',
-            numeroWhatsApp: '5511999999999', // ALTERE AQUI
+            numeroWhatsApp: '5512982286099', // ALTERE AQUI
             maxFileSize: 5 * 1024 * 1024, // 5MB
             webhookURL: 'https://webhook.site/seu-webhook' // ALTERE AQUI
         };
