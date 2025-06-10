@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const statusDiv = document.getElementById('status');
 
     // ⚠️ ALTERE AQUI SEU NÚMERO DO WHATSAPP
-    const NUMERO_WHATSAPP = '5512982286099';
+    const NUMERO_WHATSAPP = '5512981732266';
 
     function mostrarStatus(mensagem, tipo) {
         statusDiv.textContent = mensagem;
